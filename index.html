@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind CSS Project</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
-    <div class="container bg-gray-800 w-96 h-96 m-auto">
-       <h1 class="text-green-400 text-center">Hello</h1>
-       <h1 class="text-green-400 text-center">Hello</h1>
-    </div>
+
+<body class="bg-[#2C2D34]">
+
+    <nav class="bg-[#2C2D34] shadow-xl">
+        <div class="container mx-auto">
+            <div class="sm:flex justify-between items-center py-5">
+                <div class="text-center mb-3">
+                    <a href="#" class="text-white text-xl sm:text-3xl font-bold"><span class="text-[#38BDF8]">Tailwind</span> CSS</a>
+                </div>
+                <ul class="sm:flex text-white text-xl text-center border-t sm:border-none">
+                    <li class="mt-3 sm:mt-0"><a href="#" class="p-3 text-[#FC5F27]">Home</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#FC5F27]">Product</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#FC5F27]">Blog</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#FC5F27]">Portfolio</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#FC5F27]">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <head>
+        <div class="container mx-auto border border-indigo-500 border-t-0 sm:flex justify-around items-center text-center text-white h-[80vh] px-10 pt-10">
+            <div>
+                <h1 class="text-2xl sm:text-5xl mb-8 md:sm-10 leading-tight">The Perfect Match for: <br>Beautiful Storefronts</h1>
+                <button class="bg-[#38BDF8] hover:bg-[#61ccfa] px-8 py-2 rounded-full text-2xl shadow-xl mb-8 md:sm-10">Shopify Design with Tailwind css <svg class="w-8 inline-block text-red-600 ml-2 animate-pulse" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                  </button>
+            </div>
+            <div>
+                <img class="max-h-96 max-w-96 text-center animate-pulse" src="/images/hero.png" alt="">
+            </div>
+        </div>
+    </head>
 </body>
+
 </html>
