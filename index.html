@@ -10,36 +10,73 @@
 
 <body class="bg-[#2C2D34]">
 
-    <nav class="bg-[#2C2D34] shadow-xl">
+    <nav class="sticky top-0 z-10 bg-[#2C2D34] shadow-xl">
         <div class="container mx-auto">
             <div class="sm:flex justify-between items-center py-5">
                 <div class="text-center mb-3">
                     <a href="#" class="text-white text-xl sm:text-3xl font-bold"><span class="text-[#38BDF8]">Tailwind</span> CSS</a>
                 </div>
                 <ul class="sm:flex text-white text-xl text-center border-t sm:border-none">
-                    <li class="mt-3 sm:mt-0"><a href="#" class="p-3 text-[#FC5F27]">Home</a></li>
-                    <li><a href="#" class="p-3 hover:text-[#FC5F27]">Product</a></li>
-                    <li><a href="#" class="p-3 hover:text-[#FC5F27]">Blog</a></li>
-                    <li><a href="#" class="p-3 hover:text-[#FC5F27]">Portfolio</a></li>
-                    <li><a href="#" class="p-3 hover:text-[#FC5F27]">Contact</a></li>
+                    <li class="mt-3 sm:mt-0"><a href="#" class="p-3 text-[#38BDF8]">Home</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#38BDF8]">Product</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#38BDF8]">Blog</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#38BDF8]">Portfolio</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#38BDF8]">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <head>
-        <div class="container mx-auto border border-indigo-500 border-t-0 sm:flex justify-around items-center text-center text-white h-[80vh] px-10 pt-10">
+        <div class="container mx-auto border border-[#38BDF8] border-t-0 sm:flex justify-around items-center text-center text-white h-[80vh] px-10 pt-10">
             <div>
-                <h1 class="text-2xl sm:text-5xl mb-8 md:sm-10 leading-tight">The Perfect Match for: <br>Beautiful Storefronts</h1>
-                <button class="bg-[#38BDF8] hover:bg-[#61ccfa] px-8 py-2 rounded-full text-2xl shadow-xl mb-8 md:sm-10">Shopify Design with Tailwind css <svg class="w-8 inline-block text-red-600 ml-2 animate-pulse" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <h1 class="text-3xl sm:text-5xl mb-8 md:sm-10">The Perfect Match for: <br>Beautiful Storefronts</h1>
+                <button class="bg-[#38BDF8] hover:bg-[#5cd0e8] px-8 py-2 transition rounded-full shadow-xl mb-8 md:sm-10">Start Shopify with Tailwind CSS <svg class="w-8 inline-block text-red-600 ml-2 animate-pulse" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                   </svg>
                   </button>
             </div>
             <div>
-                <img class="max-h-96 max-w-96 text-center animate-pulse" src="/images/hero.png" alt="">
+                <img class="w-96 mx-auto text-center animate-pulse" src="/images/hero.png" alt="">
             </div>
         </div>
     </head>
+    <main class="container mx-auto">
+       <section class="my-20">
+        <h2 class="text-white text-3xl text-center mb-10">Our Services</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="bg-gray-800 p-10 rounded-lg text-center border-4 border-[#1F2937] hover:border-[#38BDF8] cursor-pointer">
+                <img class="w-1/2 mx-auto " src="/images/services.png" alt="">
+                <h4 class="text-white my-5 text-lg underline underline-offset-4">Shopify Website Design</h4>
+                <p class="text-white my-5">Best Ecommerce Website Design by Shopify</p>
+            </div>
+            <div class="bg-gray-800 p-10 rounded-lg text-center border-4 border-[#1F2937] hover:border-[#38BDF8] cursor-pointer">
+                <img class="w-1/2 mx-auto " src="/images/services2.png" alt="">
+                <h4 class="text-white my-5 text-lg underline underline-offset-4">Shopify Development</h4>
+                <p class="text-white my-5">Shopify Development with Liquid, Javscript, html,css</p>
+            </div>
+            <div class="bg-gray-800 p-10 rounded-lg text-center border-4 border-[#1F2937] hover:border-[#38BDF8] cursor-pointer">
+                <img class="w-1/2 mx-auto " src="/images/services3.png" alt="">
+                <h4 class="text-white my-5 text-lg underline underline-offset-4">Shopify Theme Customization</h4>
+                <p class="text-white my-5">Best Ecommerce Website Design by Shopify</p>
+            </div>
+            <div class="bg-gray-800 p-10 rounded-lg text-center border-4 border-[#1F2937] hover:border-[#38BDF8] cursor-pointer">
+                <img class="w-1/2 mx-auto " src="/images/services4.png" alt="">
+                <h4 class="text-white my-5 text-lg underline underline-offset-4">Shopify Custom Section Building</h4>
+                <p class="text-white my-5">Best Ecommerce Website Design by Shopify</p>
+            </div>
+            <div class="bg-gray-800 p-10 rounded-lg text-center border-4 border-[#1F2937] hover:border-[#38BDF8] cursor-pointer">
+                <img class="w-1/2 mx-auto " src="/images/servcies5.png" alt="">
+                <h4 class="text-white my-5 text-lg underline underline-offset-4">Shopify Speed Optimization</h4>
+                <p class="text-white my-5">Shopify Development with Liquid, Javscript, html,css</p>
+            </div>
+            <div class="bg-gray-800 p-10 rounded-lg text-center border-4 border-[#1F2937] hover:border-[#38BDF8] cursor-pointer">
+                <img class="w-1/2 mx-auto " src="/images/servcies7.png" alt="">
+                <h4 class="text-white my-5 text-lg underline underline-offset-4">Shopify Conversion Rate Optimization</h4>
+                <p class="text-white my-5">Best Ecommerce Website Design by Shopify</p>
+            </div>
+        </div>
+       </section>
+    </main>
 </body>
 
 </html>
